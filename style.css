@@ -23,7 +23,7 @@ nav ul li a {
     font-size: 30px;
     text-emphasis-color: rgb(117, 0, 0);
 }
-a.active {
+nav ul li a.active {
     color: darkred;
     text-decoration: underline;
 }
