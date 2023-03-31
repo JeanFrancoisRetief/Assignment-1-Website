@@ -1,3 +1,6 @@
+body {
+    background-color: lightblue;
+}
 nav {
     background-color: rgb(237, 100, 100);
     text-decoration-color: white;
@@ -33,6 +36,7 @@ h1.pageTitle {
     background-color: darkred;
     color: white;
     margin: auto;
+    margin-bottom: 15px;
     width: 25%;
     height: 50px;
     text-align: center;
@@ -44,3 +48,64 @@ h2.paragraphTitle {
     font-style: bold;
     font-family: cursive;
 }
+article.regularArticle{
+    background-color: white;
+    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    /* No top margin */
+    padding: 15px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(237, 100, 100);
+    text-decoration-color: white;
+    width: 25%;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: auto;
+    margin-right: 0px;
+}
+footer h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav-bar.isFixed {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(237, 100, 100);
+    text-decoration-color: white;
+    margin: auto;
+    width: 70%;
+    height: 70px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+nav-bar.isFixed ul {
+    float: left;
+    margin-right: 30px;
+}
+nav-bar.isFixed ul li{
+    display: inline-block;
+    text-decoration: none;
+    text-emphasis-color: white;
+    margin-left: 10px;
+}
+nav-bar.isFixed ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-emphasis-color: rgb(117, 0, 0);
+}
+nav-bar.isFixed ul li a:hover {
+    text-decoration: underline;
+    color: darkred;
+
+}
+
