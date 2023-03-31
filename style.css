@@ -31,6 +31,9 @@ nav ul li a.active {
     color: darkred;
     text-decoration: underline;
 }
+nav ul li a:hover {
+    color: darkred;
+}
 
 h1.pageTitle {
     background-color: darkred;
@@ -104,8 +107,6 @@ nav-bar.isFixed ul li a {
     text-emphasis-color: rgb(117, 0, 0);
 }
 nav-bar.isFixed ul li a:hover {
-    text-decoration: underline;
     color: darkred;
-
 }
 
