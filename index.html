@@ -8,83 +8,89 @@
     <title>2458318 - Homepage</title>
 </head>
 <body>
-    <nav  id="topOfPage">
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="blogs.html">Blogs</a></li>
-            <li><a href="design.html">Design</a></li>
-            <li><a href="essay.html">Essays</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="profile.html">Profile</a></li>
-        </ul>
-    </nav>
-    <h1 class="pageTitle">Homepage</h1>
-    <article class="regularArticle" id="helloWorld">
-        <h2 class="paragraphTitle">Hello World!</h2>
-        <p>Hello, I'm Jean-Francois Retief (Student Number: 2458318).</p>
-        <p>This is my my first website.</p>
-        <p>It is for WSOA3028A - Interactive Media IIIA Assigment 1.</p>
-        <p>It was made in 2023.</p>
-        <p>&nbsp</p>
-        <p>It includes the following pages:</p>
-        <ul>
-            <li>Homepage</li>
-            <li>DevBlog page</li>
-            <li>Design page</li>
-            <li>Essay page</li>
-            <li>Portfolio page</li>
-            <li>Profile page</li>
-        </ul>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-    </article>
-    <article class="regularArticle" id="navTut">
-        <h2 class="paragraphTitle">Navigation</h2>
-        <ul>
-            <li>
-                At the top of each page is the Inter-Page-Navigation-Bar. This is where you will traverse through every page. 
-                Simply select any of the options to navigate to another page.
-            </li>
-            <li>
-                At the bottom of each page is a "End of Page" footer. This contains an ID that the 
-                Intra-Page-Navigation-Bar used to know where the bottom of the page is.
-            </li>
-            <li>
-                At the bottom of your screen, following the view as you scroll, is the Intra-Page-Navigation-Bar. This is used to 
-                ease the use traversal within a webpage. The options on this nav bar will differ from page to page.
-            </li>
-        </ul>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-        <p>&nbsp</p>
-    </article>
+    <header>
+        <nav  id="topOfPage">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="essay.html">Essays</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+        <h1 class="pageTitle">Homepage</h1>
+    </header>
+
+    <main>
+        <article class="regularArticle" id="helloWorld">
+            <h2 class="paragraphTitle">Hello World!</h2>
+            <p>Hello, I'm Jean-Francois Retief (Student Number: 2458318).</p>
+            <p>This is my my first website.</p>
+            <p>It is for WSOA3028A - Interactive Media IIIA Assigment 1.</p>
+            <p>It was made in 2023.</p>
+            <p>&nbsp</p>
+            <p>It includes the following pages:</p>
+            <ul>
+                <li>Homepage</li>
+                <li>DevBlog page</li>
+                <li>Design page</li>
+                <li>Essay page</li>
+                <li>Portfolio page</li>
+                <li>Profile page</li>
+            </ul>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+        </article>
+        <article class="regularArticle" id="navTut">
+            <h2 class="paragraphTitle">Navigation</h2>
+            <ul>
+                <li>
+                    At the top of each page is the Inter-Page-Navigation-Bar. This is where you will traverse through every page. 
+                    Simply select any of the options to navigate to another page.
+                </li>
+                <li>
+                    At the bottom of each page is a "End of Page" footer. This contains an ID that the 
+                    Intra-Page-Navigation-Bar used to know where the bottom of the page is.
+                </li>
+                <li>
+                    At the bottom of your screen, following the view as you scroll, is the Intra-Page-Navigation-Bar. This is used to 
+                    ease the use traversal within a webpage. The options on this nav bar will differ from page to page.
+                </li>
+            </ul>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+            <p>&nbsp</p>
+        </article>
+    
+        <nav-bar class="isFixed">
+            <ul>
+                <li><a href="#topOfPage">Top</a></li>
+                <li><a href="#helloWorld">HelloWorld</a></li>
+                <li><a href="#navTut">Navigation</a></li>
+                <li><a href="#bottomOfPage">Bottom</a></li>
+            </ul>
+        </nav-bar>
+    </main>
 
     <footer id="bottomOfPage">
         <h2>End of Page</h2>
     </footer>
-
-    <nav-bar class="isFixed">
-        <ul>
-            <li><a href="#topOfPage">Top</a></li>
-            <li><a href="#helloWorld">HelloWorld</a></li>
-            <li><a href="#navTut">Navigation</a></li>
-            <li><a href="#bottomOfPage">Bottom</a></li>
-        </ul>
-    </nav-bar>
+    
 </body>
 </html>
