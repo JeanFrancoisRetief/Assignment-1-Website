@@ -67,6 +67,11 @@ article.regularArticle{
     border-radius: 20px;
 }
 
+article.regularArticle img{
+    height: fit-content;
+    width: fit-content;
+}
+
 section.BlogSelector {
     background-color: whitesmoke;
     margin: auto;
