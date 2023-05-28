@@ -1,3 +1,69 @@
+/*New*/
+/*
+body {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    height: 100vh;
+    grid-template: 70px auto 70px / 20fr 80fr;
+    gap: 10px;
+    grid-template-areas: 
+    "sideheader" "header"
+    "sidebar" "main"
+    "sidefooter" "footer";
+
+}
+
+#headID {
+    grid-area: header;
+}
+
+#mainID {
+    grid-area: main;
+}
+
+#footID {
+    grid-area: footer;
+}
+
+nav {
+    background-color: rgb(237, 100, 100);
+    text-decoration-color: white;
+    margin: auto;
+    width: 100%;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-emphasis-color: white;
+    margin-right: 10px;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-emphasis-color: rgb(117, 0, 0);
+}
+nav ul li a.active {
+    color: darkred;
+    text-decoration: underline;
+}
+nav ul li a:hover {
+    color: darkred;
+}*/
+
+/*old*/
+
 body {
     background-color: lightblue;
 }
@@ -62,7 +128,7 @@ article.regularArticle{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    /* No top margin */
+
     padding: 15px;
     border-radius: 20px;
 }
@@ -78,7 +144,6 @@ section.BlogSelector {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    /* No top margin */
     padding: 15px;
     border-radius: 20px;
 }
@@ -129,7 +194,6 @@ section.Profile {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-    /* No top margin */
     padding: 15px;
     border-radius: 20px;
 }
