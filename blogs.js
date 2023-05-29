@@ -156,7 +156,7 @@ const blogArray = [
         "par10": "<p></p>",
     },
     {
-        "title": "<p></p>",
+        "title": "<p>~ 2458318 ~ Jean-Francois Retief ~ Week 13 - Blog Post</p>",
         "par1": "<p></p>",
         "par2": "<p></p>",
         "par3": "<p></p>",
@@ -169,7 +169,7 @@ const blogArray = [
         "par10": "<p></p>",
     },
     {
-        "title": "<p></p>",
+        "title": "<p>~ 2458318 ~ Jean-Francois Retief ~ Week 14 - Blog Post</p>",
         "par1": "<p></p>",
         "par2": "<p></p>",
         "par3": "<p></p>",
@@ -189,11 +189,25 @@ const blogArray = [
 //+"<p>Case Studies: When comparing the usability of the Wits Home Site and Ulwazi’s Dashboard, it is clear that the Wits Home Site is in dire need of improvement. On the main page, the interactable parts of the site aren’t prominent enough. You have to scroll down to access the “search courses” section and as you scroll down further, the inconsistent placement of images and text makes it a chore to navigate. In contrast, Ulwazi’s Dashboard is much easier (and pleasant) to use. Everything on the site is neatly organized into sections (important tabs on the left, courses in the centre, and important announcements on the right). Taking my favourite website, Youtube, as another case study: there are things that I like and dislike about the site. I like that, similar to Ulwazi’s Dashboard, the site is clearly split up between important tabs on the left, and the videos on the right. There is also a few small “quality of life” things (like the videos previewing if you hover your mouse over the thumbnail and displaying how much of a video you have watched already at the bottom of the thumbnail) that really make the site more pleasant to use. I don’t like the increasing frequency of advertisements on the site, but I understand that is required for the site to make a profit.</p>"
 //+"<p>My goals for this course: I want to qualify as a “successful student” as described in the “Course Outcomes” section of the CBO.</p>";
 
+
 let displayedBlog = document.getElementById("BlogDisplay");
-function getBlog()
+//initial random display
+function getRandomBlog()
 {
     let i = Math.floor(Math.random() * blogArray.length)
     displayedBlog.innerHTML = blogArray[i].title + blogArray[i].par1 + blogArray[i].par2 + blogArray[i].par3 + blogArray[i].par4 + blogArray[i].par5
     + blogArray[i].par6+ blogArray[i].par7+ blogArray[i].par8+ blogArray[i].par9+ blogArray[i].par10;
 }
-getBlog();
+getRandomBlog();
+
+
+const BlogButton = document.querySelector('#BlogSelectorButton');
+BlogButton.addEventListener("click", () => getBlog());
+//Specific Blog
+function getBlog()
+{
+    let i = document.querySelector("input").value - 1;
+
+    displayedBlog.innerHTML = blogArray[i].title + blogArray[i].par1 + blogArray[i].par2 + blogArray[i].par3 + blogArray[i].par4 + blogArray[i].par5
+    + blogArray[i].par6+ blogArray[i].par7+ blogArray[i].par8+ blogArray[i].par9+ blogArray[i].par10;
+}
