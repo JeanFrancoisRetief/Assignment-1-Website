@@ -79,25 +79,3 @@ function displaySites(portfolio) {
     .join("");
     displayContainer.innerHTML = displaySites;
     }
-
-/*
-function displayMenu(menuItems) {
-    let displayMenu = menuItems
-    .map(function (menuItem) {
-    return `<article class="menu-item">
-    <img src="${menuItem.img}" alt="${menuItem.category}" class="photo" />
-    <div class="item-info">
-    <header>
-    <h4>${menuItem.title}</h4>
-    <h4 class="price">${menuItem.price}</h4>
-    </header>
-    <p class="item-text">
-    ${menuItem.desc}
-    </p>
-    </div>
-    </article>`;
-    })
-    .join("");
-    sectionCenter.innerHTML = displayMenu;
-    }
-    */
