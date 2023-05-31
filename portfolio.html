@@ -24,109 +24,19 @@
     </header>
 
     <main>
-        <section class="BlogSelector">
-            <h2 class="paragraphTitle">Portfolio Item Selection</h2>
-            <ul>
-                <li>
-                    <a href="#Game01">Game 1</a>
-                    <img src="Other Images/Game01Screenshot02.jpg" alt="Game 1 Image">
-                </li>
-                <li>
-                    <a href="#Game02">Item 2</a>
-                    <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                </li>
-                <li>
-                    <a href="#Game03">Item 3</a>
-                    <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                </li>
-                <li>
-                    <a href="#Game04">Item 4</a>
-                    <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                </li>
-            </ul>
-        </section>
-
-        <article class="regularArticle" id="Game01">
-            <h2 class="paragraphTitle">Game 1</h2>
-            <p>
-                ~ 2458318 ~ Jean-Francois Retief ~ Game 1 ~ Sentient Delivery (Platformer)
-                <br><br>Made for a Game Design assigment in semester 2 of 2022. You play as a sentient package that has to deliver itself. The game is a platformer. 
-                <br>The first level is clasic 2D platforming with moving platforms. Level 2 has portals and size-changers. Level 3 has puzzles. 
-                <br>Level 4 does not have a "IsGrounded" check for the jumps, thus allowing the player to fly. Level 5 allows for 3D movement.
-                <br><br>Download link (zip file):
-                <br><a href="Other Files/DeliveryPlatformer.zip" download="DeliveryPlatformer">DeliveryPlatformer.zip</a>
-                <br><br><br>Screenshots:
-                <br><br><img src="Other Images/Game01Screenshot01.jpg" alt="Image of game 1">
-            </p>
+        <!-- Selection -->
+        <article class="regularArticle" id="buttonArticle">
+            <button id="GameButton">Show Games</button>
+            <button id="SiteButton">Show Sites</button>
         </article>
-        
-        <article class="regularArticle" id="Game02">
-            <h2 class="paragraphTitle">Item 2</h2>
-            <p>
-                ~ 2458318 ~ Jean-Francois Retief ~ Item 2 ~ Placeholder Title
-                <br><br>Placeholder description.
-                <br><br>Download link (zip file)
-                <br><a href="#Game02">PlaceholderLink</a>
-                <br><br><br>Screenshots:
-                <br><br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-            </p>
-        </article>
-
-        <article class="regularArticle" id="Game03">
-            <h2 class="paragraphTitle">Item 3</h2>
-            <p>
-                ~ 2458318 ~ Jean-Francois Retief ~ Item 3 ~ Placeholder Title
-                <br><br>Placeholder description.
-                <br><br>Download link (zip file)
-                <br><a href="#Game03">PlaceholderLink</a>
-                <br><br><br>Screenshots:
-                <br><br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-            </p>
-        </article>
-
-        <article class="regularArticle" id="Game04">
-            <h2 class="paragraphTitle">Item 4</h2>
-            <p>
-                ~ 2458318 ~ Jean-Francois Retief ~ Item 4 ~ Placeholder Title
-                <br><br>Placeholder description.
-                <br><br>Download link (zip file)
-                <br><a href="#Game04">PlaceholderLink</a>
-                <br><br><br>Screenshots:
-                <br><br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <br><img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-                <img src="Other Images/PlaceHolderImage.jpg" alt="Placeholder Image">
-            </p>
-        </article>
-
-        <nav-bar class="isFixed">
-            <ul>
-                <li><a href="#topOfPage">Top</a></li>
-                <li><a href="#Game01">Game1</a></li>
-                <li><a href="#Game02">Item2</a></li>
-                <li><a href="#Game03">Item3</a></li>
-                <li><a href="#Game04">Item4</a></li>
-                <li><a href="#bottomOfPage">Bottom</a></li>
-            </ul>
-        </nav-bar>
+        <!-- Display -->
+        <section id="displayContainer"></section>
     </main>
 
     <footer id="bottomOfPage">
         <h2>End of Page</h2>
     </footer>
 
-    
+    <script src="portfolio.js"></script>
 </body>
 </html>
