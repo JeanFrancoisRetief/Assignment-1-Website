@@ -66,6 +66,9 @@ nav ul li a:hover {
 
 body {
     background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 nav {
     background-color: rgb(237, 100, 100);
@@ -138,6 +141,35 @@ article.regularArticle img{
     width: fit-content;
 }
 
+#inputArticle {
+    text-align: center;
+}
+
+#inputArticle ul {
+    background-color:  rgb(237, 100, 100);
+    border: 5px solid black;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inputArticle ul li {
+    display: inline-block;
+    text-decoration: none; 
+    color: white;
+}
+
+#BlogSelectorTextBox {
+    width: 45px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: darkred;
+    color: white;
+    font: bold;
+}
+
+/*
 section.BlogSelector {
     background-color: whitesmoke;
     margin: auto;
@@ -187,7 +219,7 @@ section.BlogSelector ul li img {
     width: 220px;
 
 }
-
+*/
 section.Profile {
     background-color: whitesmoke;
     margin: auto;
