@@ -317,7 +317,7 @@ nav-bar.isFixed ul li a:hover {
 }
 
 /* */
-@media (max-width: 650px) {
+@media (max-width: 660px) {
     nav {
 
         height: 50px;
