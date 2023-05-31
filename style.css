@@ -317,7 +317,7 @@ nav-bar.isFixed ul li a:hover {
 }
 
 /* */
-@media (max-width: 660px) {
+@media screen and (max-width: 660px) {
     nav {
 
         height: 50px;
@@ -331,7 +331,7 @@ nav-bar.isFixed ul li a:hover {
     }
 }
 
-@media (max-width: 482px) {
+@media screen and (max-width: 482px) {
     nav {
         height: 40px;
     }
@@ -350,7 +350,7 @@ nav-bar.isFixed ul li a:hover {
 
 }
 
-@media (max-width: 346px) {
+@media screen and (max-width: 346px) {
     nav {
         background-color: rgb(134, 100, 237);
         height: 60px;
