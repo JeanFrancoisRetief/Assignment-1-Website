@@ -104,6 +104,24 @@ nav ul li a:hover {
     color: darkred;
 }
 
+/*Nev nav*/
+nav ul li button {
+    text-decoration: none;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    text-emphasis-color: rgb(117, 0, 0);
+}
+nav ul li button.active {
+    color: darkred;
+    text-decoration: underline;
+}
+nav ul li button:hover {
+    color: darkred;
+}
+/*New nav end*/
+
 h1.pageTitle {
     background-color: darkred;
     color: white;
@@ -380,7 +398,7 @@ nav-bar.isFixed ul li a:hover {
     #bottomOfPage h2 {
         font-size: 20px;
     }
-    
+
     section.Profile ul h2 {
         font-size: 15px;
     }
