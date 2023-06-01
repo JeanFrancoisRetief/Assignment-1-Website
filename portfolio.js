@@ -53,39 +53,31 @@ const portfolioSites = [
     }
 ];
 
-const GameButton = document.querySelector('#GameButton');
-GameButton.addEventListener("click", () => displayGames(portfolioGames));
-const SiteButton = document.querySelector('#SiteButton');
-SiteButton.addEventListener("click", () => displaySites(portfolioSites));
+const gameButton = document.querySelector('#GameButton');
+gameButton.addEventListener("click", () => DisplayGames(portfolioGames));
+const siteButton = document.querySelector('#SiteButton');
+siteButton.addEventListener("click", () => DisplaySites(portfolioSites));
 
 const displayContainer = document.getElementById("displayContainer");
 
-function displayGames(portfolio) {
+function DisplayGames(portfolio) {
     let displayGames = portfolio.map(function (portfolio) {
     return `<article class="regularArticle">
     <h1>${portfolio.title}</h1>
-    <p>${portfolio.description}</p>
-    <p>Download link (zip file):</p>
+    <p>${portfolio.description}</p><p>Download link (zip file):</p>
     <a href="${portfolio.downloadPath}" download="${portfolio.downloadName}">${portfolio.downloadCaption}</a>
-    <p>Screenshot:</p>
-    <img src="${portfolio.imageSRC}" alt="${portfolio.imageALT}" id="screenshot">
-    </article>`;
-    })
-    .join("");
+    <p>Screenshot:</p><img src="${portfolio.imageSRC}" alt="${portfolio.imageALT}" id="screenshot"></article>`;
+    }).join("");
     displayContainer.innerHTML = displayGames;
 }
 
-function displaySites(portfolio) {
+function DisplaySites(portfolio) {
     let displaySites = portfolio.map(function (portfolio) {
     return `<article class="regularArticle">
     <h1>${portfolio.title}</h1>
-    <p>${portfolio.description}</p>
-    <p>Link to website:</p>
+    <p>${portfolio.description}</p><p>Link to website:</p>
     <a href="${portfolio.linkPath}">${portfolio.linkName}</a>
-    <p>Screenshot:</p>
-    <img src="${portfolio.imageSRC}" alt="${portfolio.imageALT}" id="screenshot">
-    </article>`;
-    })
-    .join("");
+    <p>Screenshot:</p><img src="${portfolio.imageSRC}" alt="${portfolio.imageALT}" id="screenshot"></article>`;
+    }).join("");
     displayContainer.innerHTML = displaySites;
     }

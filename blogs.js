@@ -192,33 +192,27 @@ const blogArray = [
 
 let displayedBlog = document.getElementById("BlogDisplay");
 //initial random display
-function getRandomBlog()
+function GetRandomBlog()
 {
     let i = Math.floor(Math.random() * blogArray.length)
     displayedBlog.innerHTML = blogArray[i].title + blogArray[i].par1 + blogArray[i].par2 + blogArray[i].par3 + blogArray[i].par4 + blogArray[i].par5
     + blogArray[i].par6+ blogArray[i].par7+ blogArray[i].par8+ blogArray[i].par9+ blogArray[i].par10;
 }
-getRandomBlog();
+GetRandomBlog();
 
 
 //const BlogButton = document.querySelector('#BlogSelectorButton');
 //BlogButton.addEventListener("click", () => getBlog());
-document.querySelector("input").addEventListener('input', () => getBlog());
+document.querySelector("input").addEventListener('input', () => GetBlog());
 //Specific Blog
-function getBlog()
+function GetBlog()
 {
     let i = document.querySelector("input").value - 1;
-
-    if (i > blogArray.length-1)
-    {
+    if (i > blogArray.length-1){
         alert("There are only blogs up until week " + (blogArray.length))
-    }
-    else
-    {
+    } else{
         displayedBlog.innerHTML = blogArray[i].title + blogArray[i].par1 + blogArray[i].par2 
             + blogArray[i].par3 + blogArray[i].par4 + blogArray[i].par5 + blogArray[i].par6+ blogArray[i].par7+ 
                 blogArray[i].par8+ blogArray[i].par9+ blogArray[i].par10;
     }
-
-    
 }
