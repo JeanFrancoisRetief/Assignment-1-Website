@@ -63,11 +63,12 @@ DisplayNavBar(nav); //always run
 */
 
 function GoToHomePage(){
-    window.location.replace("http://127.0.0.1:5500/index.html");
+    //window.location.replace("http://127.0.0.1:5500/index.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/index.html");
 }
 
 function GoToBlogPage(){
-    window.location.replace("http://127.0.0.1:5500/blogs.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/blogs.html");
 }
 
 function GoToDesignPage(){
