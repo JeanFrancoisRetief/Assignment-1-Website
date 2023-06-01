@@ -112,6 +112,8 @@ nav ul li button {
     border: none;
     font-size: 30px;
     text-emphasis-color: rgb(117, 0, 0);
+    font-style: bold;
+    font-family: "Times New Roman", Times, serif;
 }
 nav ul li button.active {
     color: darkred;
@@ -369,12 +371,12 @@ nav-bar.isFixed ul li a:hover {
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 721px) {
     nav {
 
         height: 50px;
     }
-    nav ul li a {
+    nav ul li button {
         font-size: 20px;
     }
 
@@ -383,7 +385,7 @@ nav-bar.isFixed ul li a:hover {
     }
 }
 
-@media screen and (max-width: 482px) {
+@media screen and (max-width: 554px) {
     nav {
         height: 40px;
     }
@@ -391,7 +393,7 @@ nav-bar.isFixed ul li a:hover {
         margin-right: 10px;
         margin-top: 10px;
     }
-    nav ul li a {
+    nav ul li button {
         font-size: 13px;
     }
 
@@ -406,7 +408,7 @@ nav-bar.isFixed ul li a:hover {
 
 }
 
-@media screen and (max-width: 346px) {
+@media screen and (max-width: 418px) {
     nav {
         background-color: rgb(134, 100, 237);
         height: 60px;
@@ -415,7 +417,7 @@ nav-bar.isFixed ul li a:hover {
         margin-right: 10px;
         margin-top: 10px;
     }
-    nav ul li a {
+    nav ul li button {
         font-size: 13px;
     }
 
