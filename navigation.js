@@ -1,4 +1,5 @@
-/*const nav = [
+/*
+const nav = [
     {
         id: 1,
         buttonID: "homeButton",
@@ -29,7 +30,42 @@
         buttonID: "profileButton",
         buttonCaption: "Profile",
     }
-];*/
+];
+*/
+/*
+const nav = [
+    {
+        id: 1,
+        linkID: "index.html",
+        linkCaption: "Home",
+    },
+    {
+        id: 2,
+        linkID: "blogs.html",
+        linkCaption: "Blogs",
+    },
+    {
+        id: 3,
+        linkID: "design.html",
+        linkCaption: "Design",
+    },
+    {
+        id: 4,
+        linkID: "essay.html",
+        linkCaption: "Essays",
+    },
+    {
+        id: 5,
+        linkID: "portfolio.html",
+        linkCaption: "Portfolio",
+    },
+    {
+        id: 6,
+        linkID: "profile.html",
+        linkCaption: "Profile",
+    }
+];
+*/
 
 const homeButton = document.querySelector('#homeButton');
 homeButton.addEventListener("click", () => GoToHomePage());
@@ -43,9 +79,17 @@ const portfolioButton = document.querySelector('#portfolioButton');
 portfolioButton.addEventListener("click", () => GoToPortfolioPage());
 const profileButton = document.querySelector('#profileButton');
 profileButton.addEventListener("click", () => GoToProfilePage());
-
-const navBarItem = document.getElementById("topOfPage"); //<nav></nav>
-
+/*
+const navBar = document.getElementById("navContainer"); //<nav></nav>
+function DisplayNavBar(nav)
+{
+    let displayNav = nav.map(function (nav) {
+        return `<li><a href="${nav.linkID}">${nav.linkCaption}</a></li>`
+    }).join("");
+    navBar.innerHTML = displayNav;
+}
+DisplayNavBar(nav); //always run
+*/
 /*
 function DisplayNavBar(nav)
 {
