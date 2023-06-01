@@ -72,17 +72,17 @@ function GoToBlogPage(){
 }
 
 function GoToDesignPage(){
-    window.location.replace("http://127.0.0.1:5500/design.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/design.html");
 }
 
 function GoToEssayPage(){
-    window.location.replace("http://127.0.0.1:5500/essay.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/essay.html");
 }
 
 function GoToPortfolioPage(){
-    window.location.replace("http://127.0.0.1:5500/portfolio.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/portfolio.html");
 }
 
 function GoToProfilePage(){
-    window.location.replace("http://127.0.0.1:5500/profile.html");
+    window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/profile.html");
 }
