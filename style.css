@@ -137,8 +137,7 @@ article.regularArticle{
 }
 
 article.regularArticle img{
-    height: fit-content;
-    width: fit-content;
+    width: 80vw;
 }
 
 #inputArticle {
@@ -339,6 +338,19 @@ nav-bar.isFixed ul li a:hover {
 }
 
 /* */
+@media screen and (max-width: 925px){
+    .Profile {
+        height: 540px;
+    }
+    .Profile ul {
+        height: 500px;
+    }
+    .Profile ul li img {
+        display: block;
+        margin: auto;
+    }
+}
+
 @media screen and (max-width: 660px) {
     nav {
 
@@ -368,6 +380,10 @@ nav-bar.isFixed ul li a:hover {
     #bottomOfPage h2 {
         font-size: 20px;
     }
+    
+    section.Profile ul h2 {
+        font-size: 15px;
+    }
 
 
 }
@@ -392,6 +408,8 @@ nav-bar.isFixed ul li a:hover {
         width: 80vw;
         font-size: 10vw;
     }
+
+   
 
     
 }
