@@ -2,7 +2,7 @@ const portfolioGames = [
     {
         id: 1,
         title: "~ 2458318 ~ Jean-Francois Retief ~ Game 1 ~ Sentient Delivery (Platformer)",
-        description: "Made for a Game Design assigment in semester 2 of 2022. You play as a sentient package that has to deliver itself. The game is a platformer. The first level is clasic 2D platforming with moving platforms. Level 2 has portals and size-changers. Level 3 has puzzles. Level 4 does not have a 'IsGrounded' check for the jumps, thus allowing the player to fly. Level 5 allows for 3D movement.",
+        description: "Made for a Game Design assigment in semester 2 of 2022 (YOS2). You play as a sentient package that has to deliver itself. The game is a platformer. The first level is clasic 2D platforming with moving platforms. Level 2 has portals and size-changers. Level 3 has puzzles. Level 4 does not have a 'IsGrounded' check for the jumps, thus allowing the player to fly. Level 5 allows for 3D movement.",
         downloadPath: "Other Files/DeliveryPlatformer.zip",
         downloadName: "DeliveryPlatformer",
         downloadCaption: "DeliveryPlatformer.zip",
@@ -21,6 +21,16 @@ const portfolioGames = [
     },
     {
         id: 3,
+        title: "~ 2458318 ~ Jean-Francois Retief ~ Game 3 ~ Profit at Wartime (Clicker Game)",
+        description: "Made for a Game Design assigment in semester 1 of 2023 (YOS3). You play as a war profiteer, that makes and sells weaponry.",
+        downloadPath: "Other Files/ProfitAtWarTime.zip",
+        downloadName: "ProfitAtWarTime",
+        downloadCaption: "ProfitAtWarTime.zip",
+        imageSRC: "Other Images/Game03Screenshot01.png",
+        imageALT: "Image of my clicker game",
+    },
+    {
+        id: 4,
         title: "",
         description: "",
         downloadPath: "",
