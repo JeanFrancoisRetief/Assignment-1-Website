@@ -398,7 +398,7 @@ nav-bar.isFixed ul li a:hover {
     }
 
     #bottomOfPage h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     section.Profile ul h2 {
@@ -410,27 +410,33 @@ nav-bar.isFixed ul li a:hover {
 
 @media screen and (max-width: 418px) {
     nav {
-        background-color: rgb(134, 100, 237);
-        height: 60px;
+        height: 40px;
     }
     nav ul {
-        margin-right: 10px;
-        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: unset;
+        margin: 0px;
+        margin-right: 10vw;
+    }
+    nav ul li {
+        flex-shrink: 1;
     }
     nav ul li button {
-        font-size: 13px;
+        font-size: 12px;
+        margin-top: 10px;
     }
 
     #bottomOfPage h2 {
-        font-size: 15px;
+        font-size: 10px;
     }
     h1.pageTitle {
         width: 80vw;
         font-size: 10vw;
     }
 
-   
-
-    
 }
 
+/*below 320px - breaks*/
