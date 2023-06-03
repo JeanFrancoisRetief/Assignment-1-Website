@@ -135,7 +135,7 @@ const blogArray = [
         "par2": "<p>Reading reflection: “Ethnocomputing: ICT in Cultural and Social Context – M. Tedre, E. Sutinen, E.  Kähkönen, P. Kommers, 2006” [5]</p>",
         "par3": "<p>As discussed in lectures, everyone who goes through the current education system is primed to think in a certain “colonial” way. A good way to describe the epistemology we all learn is the scientific or “positivist” philosophy the reading describes. This philosophy, of considering reality as static, universal, and immutable, is the one adopted by many people in the technology sector, but – as I stated in last week’s blog – solutions are rarely “one-size-fits-all”. I.e., reality is ironically, rarely universal. As the reading concludes, a wider perspective needs to be adopted by any engineer or developer.</p>",
         "par4": "<p>References:</p>",
-        "par5": "<p>[5]	Matti Tedre, Erkki Sutinen, Esko  Kähkönen, Piet Kommers, 2006, “Ethnocomputing: ICT in Cultural and Social Context” URL:  https://www.researchgate.net/publication/ 220422722_Ethnocomputing_ICT_in_cultural_and_social_context [last accessed: 10/05/2023]</p>",
+        "par5": "<p>[5]	Matti Tedre, Erkki Sutinen, Esko  Kähkönen, Piet Kommers, 2006, “Ethnocomputing: ICT in Cultural and Social Context” URL:  https://www.researchgate.net/publication/ 220422722_Ethnocomputing_ICT_in_ cultural_and_social_context [last accessed: 10/05/2023]</p>",
         "par6": "<p></p>",
         "par7": "<p></p>",
         "par8": "<p></p>",
