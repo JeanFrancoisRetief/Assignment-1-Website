@@ -1,2 +1,2 @@
-# Assignment 1 Website
- My first Interactive Media Assigment
+# Assignment 3 Website
+ An updated version of my first Interactive Media Assigment
