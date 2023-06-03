@@ -28,7 +28,7 @@ const essayArray = [
         "Title": "<h2>Title</h2>",
         "Topic": "<h3>Topic</h3>",
         "num": "<p>Essay 2</p>",
-        "par1": "<p>Will apear here</p>",
+        "par1": "<p>Content will appear here, once written.</p>",
         "par2": "<p></p>",
         "par3": "<p></p>",
         "par4": "<p></p>",
@@ -64,21 +64,45 @@ const referenceArray = [
         "ref8": "<p>[8] 	L. Dukes, 'Psychology in design: the Zeigarnik effect,' UX Collective, 8 Oct 2020. [Online]. Available: https://uxdesign.cc/psychology-in-design-the-zeigarnik-effect-a59317503f8f. [Accessed 29 04 2023].</p>",
         "ref9": "<p></p>",
         "ref10": "<p></p>",
+    },
+    {
+        "num": "<p>Essay 1</p>",
+        "ref1": "<p>[references will appear here]</p>",
+        "ref2": "<p></p>",
+        "ref3": "<p></p>",
+        "ref4": "<p></p>",
+        "ref5": "<p></p>",
+        "ref6": "<p></p>",
+        "ref7": "<p></p>",
+        "ref8": "<p></p>",
+        "ref9": "<p></p>",
+        "ref10": "<p></p>",
     }
 ];
+
+const essay1Button = document.querySelector('#Essay01Button');
+essay1Button.addEventListener("click", () => DisplayEssay(0));
+const essay2Button = document.querySelector('#Essay02Button');
+essay2Button.addEventListener("click", () => DisplayEssay(1));
 
 
 let displayedEssay = document.getElementById("EssayDisplay");
 
 
+function DisplayEssay(i)
+{
+    displayedEssay.innerHTML =  essayArray[i].num + essayArray[i].Title + essayArray[i].Topic + essayArray[i].par1 + essayArray[i].par2 
+        + essayArray[i].par3 + essayArray[i].par4 + essayArray[i].par5 + essayArray[i].par6 + essayArray[i].par7 + essayArray[i].par8 + essayArray[i].par9
+        + essayArray[i].par10 + essayArray[i].par11 + essayArray[i].par12 + essayArray[i].par13 + essayArray[i].par14 + essayArray[i].par15 + essayArray[i].par16
+        + essayArray[i].par17 + essayArray[i].par18 + essayArray[i].par19 + essayArray[i].par20 + "<p>References:</p>" +  referenceArray[i].ref1 + referenceArray[i].ref2
+        + referenceArray[i].ref3 + referenceArray[i].ref4 + referenceArray[i].ref5 + referenceArray[i].ref6 + referenceArray[i].ref7 + referenceArray[i].ref8
+        + referenceArray[i].ref9 + referenceArray[i].ref10;
+}
+
 //only one essay so far
-let i = 0;
-displayedEssay.innerHTML =  essayArray[i].num + essayArray[i].Title + essayArray[i].Topic + essayArray[i].par1 + essayArray[i].par2 
-+ essayArray[i].par3 + essayArray[i].par4 + essayArray[i].par5 + essayArray[i].par6 + essayArray[i].par7 + essayArray[i].par8 + essayArray[i].par9
-+ essayArray[i].par10 + essayArray[i].par11 + essayArray[i].par12 + essayArray[i].par13 + essayArray[i].par14 + essayArray[i].par15 + essayArray[i].par16
-+ essayArray[i].par17 + essayArray[i].par18 + essayArray[i].par19 + essayArray[i].par20 + "<p>References:</p>" +  referenceArray[i].ref1 + referenceArray[i].ref2
-+ referenceArray[i].ref3 + referenceArray[i].ref4 + referenceArray[i].ref5 + referenceArray[i].ref6 + referenceArray[i].ref7 + referenceArray[i].ref8
-+ referenceArray[i].ref9 + referenceArray[i].ref10;
+
+
+
 /*
 document.querySelector("input").addEventListener('input', () => getEssay());
 function getEssay()
