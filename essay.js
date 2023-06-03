@@ -98,24 +98,3 @@ function DisplayEssay(i)
         + referenceArray[i].ref3 + referenceArray[i].ref4 + referenceArray[i].ref5 + referenceArray[i].ref6 + referenceArray[i].ref7 + referenceArray[i].ref8
         + referenceArray[i].ref9 + referenceArray[i].ref10;
 }
-
-//only one essay so far
-
-
-
-/*
-document.querySelector("input").addEventListener('input', () => getEssay());
-function getEssay()
-{
-    let i = document.querySelector("input").value - 1;
-    if (i > blogArray.length-1)
-    {
-        alert("There are only "  + (essayArray.length) +  " essays");
-    }
-    else
-    {
-        displayedEssay.innerHTML =  essayArray[i].Title + essayArray[i].Topic + essayArray[i].num;
-    }
-    
-    
-}*/

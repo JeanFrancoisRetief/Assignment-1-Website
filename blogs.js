@@ -183,13 +183,6 @@ const blogArray = [
     }
 ];
 
-//blogArray[0] = "<p>~ 2458318 ~ Jean-Francois Retief ~ Week 1 - Blog Post</p><p></p>";
-//+"<p>Setting up Git: I had already set up GitHub and GitHub Desktop last year for a game design group project and learned quite a bit from the experience. Although we mainly needed it for collaboration back then, but we also learned to use it as a global backup for our project.</p>
-//+"<p>Reading Reflections: “The Library of Babel” reading really put into perspective how overwhelming the amount of information we have today, emphasized by the fact that people were overwhelmed even before the internet (when they just had access to “finite libraries”). The website with the same name also puts into perspective just how incomprehensively large the internet is (because of this website alone, the internet already contains almost every sentence that can ever be written). As discussed in class, it was noted that this increase in access to information contributed to the shortening of our attention spans, which allows us to process more information than previous generations, just in smaller bits. I heard it often said that technology is the next step in human evolution, and if these small adaptations are anything to go by, that statement might just be true.</p>"
-//+"<p>Case Studies: When comparing the usability of the Wits Home Site and Ulwazi’s Dashboard, it is clear that the Wits Home Site is in dire need of improvement. On the main page, the interactable parts of the site aren’t prominent enough. You have to scroll down to access the “search courses” section and as you scroll down further, the inconsistent placement of images and text makes it a chore to navigate. In contrast, Ulwazi’s Dashboard is much easier (and pleasant) to use. Everything on the site is neatly organized into sections (important tabs on the left, courses in the centre, and important announcements on the right). Taking my favourite website, Youtube, as another case study: there are things that I like and dislike about the site. I like that, similar to Ulwazi’s Dashboard, the site is clearly split up between important tabs on the left, and the videos on the right. There is also a few small “quality of life” things (like the videos previewing if you hover your mouse over the thumbnail and displaying how much of a video you have watched already at the bottom of the thumbnail) that really make the site more pleasant to use. I don’t like the increasing frequency of advertisements on the site, but I understand that is required for the site to make a profit.</p>"
-//+"<p>My goals for this course: I want to qualify as a “successful student” as described in the “Course Outcomes” section of the CBO.</p>";
-
-
 let displayedBlog = document.getElementById("BlogDisplay");
 //initial random display
 function GetRandomBlog()
@@ -200,9 +193,6 @@ function GetRandomBlog()
 }
 GetRandomBlog();
 
-
-//const BlogButton = document.querySelector('#BlogSelectorButton');
-//BlogButton.addEventListener("click", () => getBlog());
 document.querySelector("input").addEventListener('input', () => GetBlog());
 //Specific Blog
 function GetBlog()

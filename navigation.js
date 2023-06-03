@@ -1,72 +1,3 @@
-/*
-const nav = [
-    {
-        id: 1,
-        buttonID: "homeButton",
-        buttonCaption: "Home",
-    },
-    {
-        id: 2,
-        buttonID: "blogsButton",
-        buttonCaption: "Blogs",
-    },
-    {
-        id: 3,
-        buttonID: "designButton",
-        buttonCaption: "Design",
-    },
-    {
-        id: 4,
-        buttonID: "essayButton",
-        buttonCaption: "Essays",
-    },
-    {
-        id: 5,
-        buttonID: "portfolioButton",
-        buttonCaption: "Portfolio",
-    },
-    {
-        id: 6,
-        buttonID: "profileButton",
-        buttonCaption: "Profile",
-    }
-];
-*/
-/*
-const nav = [
-    {
-        id: 1,
-        linkID: "index.html",
-        linkCaption: "Home",
-    },
-    {
-        id: 2,
-        linkID: "blogs.html",
-        linkCaption: "Blogs",
-    },
-    {
-        id: 3,
-        linkID: "design.html",
-        linkCaption: "Design",
-    },
-    {
-        id: 4,
-        linkID: "essay.html",
-        linkCaption: "Essays",
-    },
-    {
-        id: 5,
-        linkID: "portfolio.html",
-        linkCaption: "Portfolio",
-    },
-    {
-        id: 6,
-        linkID: "profile.html",
-        linkCaption: "Profile",
-    }
-];
-*/
-
 const homeButton = document.querySelector('#homeButton');
 homeButton.addEventListener("click", () => GoToHomePage());
 const blogsButton = document.querySelector('#blogsButton');
@@ -89,36 +20,7 @@ let navBarBackToTopInnerHTML =
 </nav-bar>`;
 displayNavContainer.innerHTML = navBarBackToTopInnerHTML;
 
-
-/*
-const navBar = document.getElementById("navContainer"); //<nav></nav>
-function DisplayNavBar(nav)
-{
-    let displayNav = nav.map(function (nav) {
-        return `<li><a href="${nav.linkID}">${nav.linkCaption}</a></li>`
-    }).join("");
-    navBar.innerHTML = displayNav;
-}
-DisplayNavBar(nav); //always run
-*/
-/*
-function DisplayNavBar(nav)
-{
-    let displayNav = nav.map(function (nav) {
-    return `<ul><li><button id="${nav[1].buttonID}">${nav[1].buttonCaption}</button></li>
-    <li><button id="${nav[0].buttonID}">${nav[0].buttonCaption}</button></li>
-    <li><button id="${nav[0].buttonID}">${nav[0].buttonCaption}</button></li>
-    <li><button id="${nav[0].buttonID}">${nav[0].buttonCaption}</button></li>
-    <li><button id="${nav[0].buttonID}">${nav[0].buttonCaption}</button></li>
-    <li><button id="${nav[0].buttonID}">${nav[0].buttonCaption}</button></li></ul>`
-    }).join("");
-    navBar.innerHTML = displayNav;
-}
-DisplayNavBar(nav); //always run
-*/
-
 function GoToHomePage(){
-    //window.location.replace("http://127.0.0.1:5500/index.html");
     window.location.replace("https://jeanfrancoisretief.github.io/Assignment-1-Website/index.html");
 }
 
