@@ -79,6 +79,17 @@ const portfolioButton = document.querySelector('#portfolioButton');
 portfolioButton.addEventListener("click", () => GoToPortfolioPage());
 const profileButton = document.querySelector('#profileButton');
 profileButton.addEventListener("click", () => GoToProfilePage());
+
+let displayNavContainer = document.getElementById("NavBarDisplay");
+let navBarBackToTopInnerHTML = 
+`<nav-bar class="isFixed">
+    <ul>
+        <li><a href="#topOfPage">Top</a></li>
+    </ul>
+</nav-bar>`;
+displayNavContainer.innerHTML = navBarBackToTopInnerHTML;
+
+
 /*
 const navBar = document.getElementById("navContainer"); //<nav></nav>
 function DisplayNavBar(nav)

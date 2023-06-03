@@ -332,7 +332,8 @@ nav-bar.isFixed {
     background-color: rgb(237, 100, 100);
     text-decoration-color: white;
     margin: auto;
-    width: 70%;
+    /*width: 70%;*/
+    width: 140px;
     height: 70px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -356,8 +357,12 @@ nav-bar.isFixed ul li a {
 nav-bar.isFixed ul li a:hover {
     color: darkred;
 }
-
-/* */
+/*
+#backToTopPortfolio, #backToTopEssay, #backToTopDesign {
+    width: 20vw;
+}
+*/
+/* media queries */
 @media screen and (max-width: 925px){
     .Profile {
         height: 540px;
@@ -387,6 +392,12 @@ nav-bar.isFixed ul li a:hover {
     #bottomOfPage h2 {
         font-size: 22px;
     }
+
+    /*
+    #backToTopPortfolio, #backToTopEssay, #backToTopDesign {
+        width: 140px;
+    }
+    */
 }
 
 @media screen and (max-width: 554px) {
@@ -441,7 +452,6 @@ nav-bar.isFixed ul li a:hover {
     }
     h1.pageTitle {
         width: 80vw;
-        font-size: 14px;
     }
 
     #designNav ul li a {
