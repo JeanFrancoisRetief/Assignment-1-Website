@@ -63,18 +63,7 @@ let stringV1 = `<article class="regularArticle" id="discription">
 <img src="Wireframes/V3pic1.jpg" alt="Version 3 Picture 1">
 <img src="Wireframes/V3pic2.jpg" alt="Version 3 Picture 2">
 <img src="Wireframes/V3pic3.jpg" alt="Version 3 Picture 3">
-</article>
-
-<nav-bar id="designNav" class="isFixed">
-<ul>
-    <li><a href="#topOfPage">Top</a></li>
-    <li><a href="#discription">Discription</a></li>
-    <li><a href="#DocIxD">Documentation</a></li>
-    <li><a href="#styleguides">StyleGuide</a></li>
-    <li><a href="#wireframes">Wireframes</a></li>
-    <li><a href="#bottomOfPage">Bottom</a></li>
-</ul>
-</nav-bar>`;
+</article>`;
 
 let stringV2 = `<p>Test</p>`;
 
