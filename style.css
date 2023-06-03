@@ -1,69 +1,3 @@
-/*New*/
-/*
-body {
-    background-color: lightblue;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: grid;
-    height: 100vh;
-    grid-template: 70px auto 70px / 20fr 80fr;
-    gap: 10px;
-    grid-template-areas: 
-    "sideheader" "header"
-    "sidebar" "main"
-    "sidefooter" "footer";
-
-}
-
-#headID {
-    grid-area: header;
-}
-
-#mainID {
-    grid-area: main;
-}
-
-#footID {
-    grid-area: footer;
-}
-
-nav {
-    background-color: rgb(237, 100, 100);
-    text-decoration-color: white;
-    margin: auto;
-    width: 100%;
-    height: 70px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-nav ul {
-    float: right;
-    margin-right: 30px;
-}
-nav ul li {
-    display: inline-block;
-    text-decoration: none;
-    text-emphasis-color: white;
-    margin-right: 10px;
-   
-}
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-    text-emphasis-color: rgb(117, 0, 0);
-}
-nav ul li a.active {
-    color: darkred;
-    text-decoration: underline;
-}
-nav ul li a:hover {
-    color: darkred;
-}*/
-
-/*old*/
-
 body {
     background-color: lightblue;
     padding: 0;
@@ -151,7 +85,7 @@ article.regularArticle{
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
-
+    font-family: Arial, sans-serif;
     padding: 15px;
     border-radius: 20px;
 }
@@ -210,57 +144,6 @@ article.regularArticle img{
     margin-right: auto;
 }
 
-/*
-section.BlogSelector {
-    background-color: whitesmoke;
-    margin: auto;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
-    border-radius: 20px;
-}
-section.BlogSelector ul{
-    text-align: center;
-}
-section.BlogSelector ul li{
-    display: inline-block;
-    text-decoration: none;
-    text-emphasis-color: white;
-    padding: 10px;
-    margin: 10px;
-    background-color: aqua;
-    border-radius: 10px;
-    border-color: black;
-    border-style: ridge;
-    width: 250px;
-}
-section.BlogSelector ul li a{
-    text-decoration: none;
-    color: navy;
-    font-size: 30px;
-}
-section.BlogSelector ul li a:hover{
-    text-decoration: underline;
-    color: white;
-    font-size: 40px;
-    transition: 0.5s;
-}
-section.BlogSelector ul li p {
-    text-align: left;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    border-color: black;
-    border-style: ridge;
-
-}
-section.BlogSelector ul li img {
-    height: 220px;
-    width: 220px;
-
-}
-*/
 section.Profile {
     background-color: whitesmoke;
     margin: auto;
@@ -357,11 +240,7 @@ nav-bar.isFixed ul li a {
 nav-bar.isFixed ul li a:hover {
     color: darkred;
 }
-/*
-#backToTopPortfolio, #backToTopEssay, #backToTopDesign {
-    width: 20vw;
-}
-*/
+
 /* media queries */
 @media screen and (max-width: 925px){
     .Profile {
@@ -393,11 +272,6 @@ nav-bar.isFixed ul li a:hover {
         font-size: 22px;
     }
 
-    /*
-    #backToTopPortfolio, #backToTopEssay, #backToTopDesign {
-        width: 140px;
-    }
-    */
 }
 
 @media screen and (max-width: 554px) {
@@ -459,4 +333,3 @@ nav-bar.isFixed ul li a:hover {
     }
 }
 
-/*below 320px - breaks*/
