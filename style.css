@@ -24,6 +24,7 @@ nav ul li {
     margin-right: 10px;
    
 }
+/*Old html link nav*/
 nav ul li a {
     text-decoration: none;
     color: white;
@@ -38,7 +39,7 @@ nav ul li a:hover {
     color: darkred;
 }
 
-/*Nev nav*/
+/*Nev JS nav*/
 nav ul li button {
     text-decoration: none;
     color: white;
@@ -200,7 +201,7 @@ footer {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: auto;
-    margin-right: 0px;
+    margin-left: 0px;
 }
 footer h2 {
     color: white;
@@ -215,6 +216,7 @@ nav-bar.isFixed {
     background-color: rgb(237, 100, 100);
     text-decoration-color: white;
     margin: auto;
+    right: 0px;
     /*width: 70%;*/
     width: 140px;
     height: 70px;
