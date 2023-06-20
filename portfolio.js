@@ -38,6 +38,16 @@ const portfolioGames = [
         downloadCaption: "PoolGame.zip",
         imageSRC: "Other Images/Game04Screenshot01.jpg",
         imageALT: "Image of my pool game.",
+    },
+    {
+        id: 5,
+        title: "~ 2458318 ~ Jean-Francois Retief ~ Game 5 ~ Run, Deliver & Gun",
+        description: "Made for Game Design assignment 3 and the exam in semester 1 of 2022 (YOS2). It is a 2D, top-down shooter.",
+        downloadPath: "Other Files/TopdownShooter.zip",
+        downloadName: "TopdownShooter",
+        downloadCaption: "TopdownShooter.zip",
+        imageSRC: "Other Images/Game05Screenshot01.jpg",
+        imageALT: "Image of my 2D shooter game.",
     }
 ];
 
