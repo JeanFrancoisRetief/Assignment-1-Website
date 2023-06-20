@@ -46,8 +46,8 @@ const portfolioSites = [
         id: 1,
         title: "~ 2458318 ~ Jean-Francois Retief ~ Website 1 ~ Original version of THIS portfolio website",
         description: "This was the first iteration of my portfolio website, made for WSOA3028A - Assignment 1 - Website",
-        linkPath: "Assignment1Website/index.html",
-        linkName: "Assignment1Website/index.html",
+        linkPath: "Other Sites/Assignment1Website/index.html",
+        linkName: "Other Sites/Assignment1Website/index.html",
         imageSRC: "Other Images/Website01Screenshot01.jpg",
         imageALT: "Image of original porfolio website.",
     }
