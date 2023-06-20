@@ -44,12 +44,21 @@ const portfolioGames = [
 const portfolioSites = [
     {
         id: 1,
-        title: "~ 2458318 ~ Jean-Francois Retief ~ Website 1 ~ Original version of THIS portfolio website",
+        title: "~ 2458318 ~ Jean-Francois Retief ~ Website 1 ~ Version 1 of THIS portfolio website",
         description: "This was the first iteration of my portfolio website, made for WSOA3028A - Assignment 1 - Website",
         linkPath: "Other Sites/Assignment1Website/index.html",
         linkName: "Other Sites/Assignment1Website/index.html",
         imageSRC: "Other Images/Website01Screenshot01.jpg",
         imageALT: "Image of original porfolio website.",
+    },
+    {
+        id: 2,
+        title: "~ 2458318 ~ Jean-Francois Retief ~ Website 2 ~ Version 2 of THIS portfolio website",
+        description: "This was the second iteration of my portfolio website, made for WSOA3028A - Assignment 3 - Website. This version is not too dissimilar from the current version (Version 3) of the site. The main noteworthy feature of V2 is the mobile support.",
+        linkPath: "portfolio.html",
+        linkName: "No link, since website is very similar to the current version.",
+        imageSRC: "Other Images/mobileScreenshot.jpg",
+        imageALT: "Mobile screenshot of porfolio website version 2.",
     }
 ];
 
