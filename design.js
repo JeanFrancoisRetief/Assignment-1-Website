@@ -3,6 +3,8 @@ const v1Button = document.querySelector('#V1Button');
 v1Button.addEventListener("click", () => DisplayDesignV1());
 const v2Button = document.querySelector('#V2Button');
 v2Button.addEventListener("click", () => DisplayDesignV2());
+const v3Button = document.querySelector('#V3Button');
+v3Button.addEventListener("click", () => DisplayDesignV3());
 
 
 let displayedDesign = document.getElementById("DesignDisplay");
@@ -88,6 +90,28 @@ let stringV2 = `<article class="regularArticle" id="discription">
 <img src="Wireframes/Assignment3V2pic1.jpg" alt="New wireframes for Assignment3 version of website">
 </article>`;
 
+let stringV3 = `<article class="regularArticle" id="discription">
+<h2 class="paragraphTitle">Discription</h2>
+<p>This page contains the wireframes, style guide and other documentation used to design, plan and adjust the website I made for Assignment 1 (and Assignment 3) for the FINAL (Exam) submission.</p>
+</article>
+
+<article class="regularArticle" id="DocIxD">
+<h2 class="paragraphTitle">Documentation of my IxD process</h2>
+<p>This remained largely the same as V1 and V2. Please see 'V1 Design'.</p>
+</article>
+
+<article class="regularArticle" id="styleguides">
+<h2 class="paragraphTitle">Style Guide</h2>
+<p>This remained largely the same as V1 and V2. Please see 'V1 Design' and 'V2 Design'.</p>
+</article>
+
+<article class="regularArticle" id="wireframes">
+<h2 class="paragraphTitle">Wireframes</h2>
+<h3 class="subParagraphTitle">New Version for Assignment 3 submission ('V2' Version)</h3>
+<p>The most notable change to the visual design and User Interface was the swap of positions of the "Top" button and the "End of Page" marker. This was done to improve the ergonomics of using the mobile version of the site.</p>
+<img src="Wireframes/ExamV3pic1.jpg" alt="New wireframes for Assignment3 version of website">
+</article>`;
+
 function DisplayDesignV1()
 {
     displayedDesign.innerHTML = stringV1;
@@ -96,4 +120,9 @@ function DisplayDesignV1()
 function DisplayDesignV2()
 {
     displayedDesign.innerHTML = stringV2;
+}
+
+function DisplayDesignV3()
+{
+    displayedDesign.innerHTML = stringV3;
 }
