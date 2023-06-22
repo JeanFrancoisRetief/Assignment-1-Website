@@ -109,7 +109,15 @@ let stringV3 = `<article class="regularArticle" id="discription">
 <h2 class="paragraphTitle">Wireframes</h2>
 <h3 class="subParagraphTitle">New Version for Assignment 3 submission ('V2' Version)</h3>
 <p>The most notable change to the visual design and User Interface was the swap of positions of the "Top" button and the "End of Page" marker. This was done to improve the ergonomics of using the mobile version of the site.</p>
-<img src="Wireframes/ExamV3pic1.jpg" alt="New wireframes for Assignment3 version of website">
+<img src="Wireframes/ExamV3pic1.jpg" alt="New wireframe for Exam version of website">
+</article>
+
+<article class="regularArticle" id="finalDesign">
+<h2 class="paragraphTitle">Note on FINAL Design</h2>
+<p>This website has very simple HTML. Unlike in the first version (which only had .html and .css files), all content is entered into the innerHTML of certain elements via JavaScript.</p>
+<img src="Wireframes/ExamV3pic2.jpg" alt="HTML for final version of website">
+<h3 class="subParagraphTitle">UML Class Diagram of the final website (in context of the files that make up the website)</h3>
+<img src="Wireframes/ExamV3pic3.jpg" alt="UML Class Diagram for final version of website">
 </article>`;
 
 function DisplayDesignV1()
