@@ -16,28 +16,28 @@
         <!-- Navigation -->
         <nav  id="topOfPage" role="navigation">
             <ul>
-                <li><button id="homeButton">Home</button></li>
-                <li><button class="active" id="blogsButton">Blogs</button></li>
-                <li><button id="designButton">Design</button></li>
-                <li><button id="essayButton">Essays</button></li>
-                <li><button id="portfolioButton">Portfolio</button></li>
-                <li><button id="profileButton">Profile</button></li>
+                <li role="link"><button id="homeButton">Home</button></li>
+                <li role="link"><button class="active" id="blogsButton">Blogs</button></li>
+                <li role="link"><button id="designButton">Design</button></li>
+                <li role="link"><button id="essayButton">Essays</button></li>
+                <li role="link"><button id="portfolioButton">Portfolio</button></li>
+                <li role="link"><button id="profileButton">Profile</button></li>
             </ul>
         </nav>
-        <h1 class="pageTitle">DevBlogs</h1>
+        <h1 class="pageTitle" role="heading">DevBlogs</h1>
     </header>
     
     <main>
 
         <!-- Blog Selection -->
-        <article class="regularArticle" id="inputArticle">
+        <article class="regularArticle" id="inputArticle" role="article">
             <p>Please select which week's blog you want to see:</p>
             <ul>
                 <li>
                     <h2>Week:</h2>
                 </li>
                 <li>
-                    <input type="number" min="1" max="14" id="BlogSelectorTextBox">
+                    <input type="number" min="1" max="14" id="BlogSelectorTextBox" role="combobox">
                 </li>
             </ul>
         </article>
