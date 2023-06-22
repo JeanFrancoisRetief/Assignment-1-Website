@@ -9,7 +9,7 @@ let contentString = `<article class="regularArticle" id="helloWorld">
 <p>This is my my portfolio website.</p>
 <p>It was originally made for WSOA3028A - Interactive Media IIIA Assigment 1.</p>
 <p>It was improved for WSOA3028A - Interactive Media IIIA Assigment 3.</p>
-<p>It was improved further for WSOA3028A - Interactive Media IIIA Final Website (Exam). This is the current and final version of this website.</p>
+<h3>It was improved further for WSOA3028A - Interactive Media IIIA Final Website (Exam). This is the current and final version of this website.</h3>
 <p>It was made in 2023 (YOS3), semester 1.</p>
 <p>&nbsp</p>
 <p>It includes the following pages:</p>
@@ -35,7 +35,7 @@ let contentString = `<article class="regularArticle" id="helloWorld">
 <p>The Portfolio page contains some of the games and websites I've made during my time at the University of the Witwatersrand.</p>
 <p>The Profile page contains a profile picture and a brief "About", about me.</p>
 <p>&nbsp</p>
-<p>&nbsp</p>
+<p>Press 'Top' to navigate to the top of the page you are currently on.</p>
 <p>&nbsp</p>
 <p>&nbsp</p>
 <p>&nbsp</p>

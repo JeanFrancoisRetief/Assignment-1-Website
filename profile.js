@@ -10,23 +10,19 @@ let contentString = `<section class="Profile">
     <li>
         <h2>
             Jean-Francois Retief
-            <br>2458318
             <br>Student at University of the Witwatersrand, Johannesburg
+            <br>Student Number: 2458318
             <br>Bachelor of Engineering Science (in Digital Arts), YOS 3
+            <br>I am studying to become a Game Designer.
         </h2>
-        <p>
-            ...
-            <br>...
-            <br>...
-        </p>
+        <p>...</p>
     </li>
 </ul>
 </section>
 <article class="regularArticle" id="wireframes">
 <h2 class="paragraphTitle">Thank you for visiting my website.</h2>
 <p>
-    &nbsp
-    <br>&nbsp
+    Have a nice day! Visit again anytime.
 </p>
 </article>`;
 displayedProfile.innerHTML = contentString;
