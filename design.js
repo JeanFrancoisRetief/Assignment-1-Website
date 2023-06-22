@@ -69,7 +69,7 @@ let stringV1 = `<article class="regularArticle" id="discription">
 
 let stringV2 = `<article class="regularArticle" id="discription">
 <h2 class="paragraphTitle">Discription</h2>
-<p>This page contains the wireframes, style guide and other documentation used to design, plan and adjust the website I made for Assignment 1 of the Assignment 3 submission.</p>
+<p>This page contains the wireframes, style guide and other documentation used to design, plan and adjust the website I made for Assignment 1 for the Assignment 3 submission.</p>
 </article>
 
 <article class="regularArticle" id="DocIxD">
